@@ -68,9 +68,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.80838973283646198" blue="0.52637912897620098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="C2a-gh-d7n" appends="YES" id="3jL-Y1-yOz"/>
-                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cCM-jU-4ch">
                                 <rect key="frame" x="0.0" y="392" width="414" height="23"/>
@@ -151,14 +148,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="1R1-ot-L9u"/>
-                <tapGestureRecognizer id="Ycr-73-08V"/>
                 <tapGestureRecognizer id="jMU-E2-YEl">
                     <connections>
                         <action selector="onTapKB:" destination="BYZ-38-t0r" id="awc-Mu-yJL"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="C2a-gh-d7n"/>
                 <tapGestureRecognizer id="5FB-oa-qsU">
                     <connections>
                         <action selector="onTap:" destination="BYZ-38-t0r" id="dGv-rN-qAM"/>
